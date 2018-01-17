@@ -1,0 +1,92 @@
+.logosize {
+  max-height: 80px;
+}
+
+.floatleft_size {
+  float: left;
+  max-width: 80%
+}
+
+.abs_pos {
+  position: absolute;
+  top: 0px;
+  z-index: 11;
+}
+
+.black {
+  background-color: black;
+  color: lightgrey;
+}
+
+.nopadding {
+  padding: 0px;
+}
+
+.nomargin {
+  margin: 0px;
+}
+
+h2, h3 {
+  padding: 8px;
+}
+
+h4 {
+  padding: 12px;
+  padding-left: 100px;
+}
+
+.margin_small {
+  margin: 8px;
+}
+
+.caja1 {
+  margin-top: 50px;
+}
+
+.caja2 {
+  border: solid 1px grey;
+  background-color: rgb(236, 236, 236);
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.caja3 {
+  margin: 50px 0px 50px 0px;
+}
+
+.imagen1 {
+  max-height: 620px;
+}
+
+.texto_carousel {
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+
+.titulo {
+  font-size: 8vh;
+}
+
+.subtitulo {
+  font-size: 2vh;
+}
+
+.buttons_zindex {
+  z-index: 10;
+}
+
+.navpadding {
+  padding: 0px 20% 0px 20%;
+}
+
+
+@media (max-width: 1024px) {
+  .texto_carousel {
+    display: none;
+  }
+
+  .navpadding {
+    padding: 0px 5px 0px 5px;
+  }
+}
